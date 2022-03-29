@@ -1272,8 +1272,7 @@ ${symbol} ${prefix}sewabot
 break
 
 case 'stickermenu':
-reply(`*_Menu Sticker_*
-${symbol} ${prefix}attp
+reply(`*_Menu Sticker
 ${symbol} ${prefix}ttp
 ${symbol} ${prefix}stiker
 ${symbol} ${prefix}doge
