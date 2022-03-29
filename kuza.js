@@ -539,8 +539,7 @@ teks = `hai Saya Haiga Botz 
 
 Haloo Kak ${pushname} 
 Salam Kenal, Aku Bot Hiaga Asisten Kami Bisa Kini!
-
-Hiaga Botz Menyediakan Top Up All Game dll.
+Hagia Botz Menyediakan Top Up All Game dll.
 Silahkan Pilih Button Di Bawah Ini Jika button Tidak Muncul Ketik .command`
 img = fs.readFileSync('./media/pee.jpg')
 trans = `Hagia Botz`
