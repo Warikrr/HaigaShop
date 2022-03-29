@@ -1,0 +1,13 @@
+module.exports.dmaov =
+`_Hai Kak Saya HaigaStore*
+_AOV (VIA ID)
+40     VOC = Rp 9.200
+90     VOC = Rp 18.500
+230   VOC = Rp 46.100
+470   VOC = Rp 93.000
+950   VOC = Rp 186.000
+1430  VOC = Rp 278.000
+2390 VOC = Rp 460.000
+4800  VOC = Rp 915.500
+OPN PUKUL 09.00 - 21.00 WIB
+PROSES 5 - 180 MENIT, MAX 24 JAM JIKA ERROR / MAINTENANCE_`
