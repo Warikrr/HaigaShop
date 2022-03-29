@@ -539,6 +539,7 @@ teks = `hai Saya Haiga Botz 
 
 Haloo Kak ${pushname} 
 Salam Kenal, Aku Bot Hiaga Asisten Kami Bisa Kini!
+
 Hagia Botz Menyediakan Top Up All Game dll.
 Silahkan Pilih Button Di Bawah Ini Jika button Tidak Muncul Ketik .command`
 img = fs.readFileSync('./media/pee.jpg')
@@ -564,7 +565,7 @@ ${symbol} Date : ${date}
 ${symbol} Wib : ${Wib}
 ${symbol} Wita : ${Wita}
 ${symbol} Wit : ${Wit}
-
+ 
 *_｢ Bot Info ｣_*
 ${symbol} Bot Name : ${botname}
 ${symbol} Owner Name : ${ownername}
