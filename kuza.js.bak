@@ -92,13 +92,13 @@ const simple = require('./lib/simple.js')
 
     //--Setting--//
 
-let botname = '*_｢ KuzaBase 0.1 ｣ 冬_*' //NAMA BOT
+let botname = '*_｢ ArullBotz ｣ 冬_*' //NAMA BOT
 let lolkey = 'isi'
 let zekskey = 'NXRu7zmcmyWTn0YGNzIV0gTFgoP' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
-let ownername = '*_｢ AbilGanz ✘ ｣_*' //NAMA OWNER
-let owner = '6282293295376' // NOMOR OWNER
+let ownername = '*_｢ ArullOfc ✘ ｣_*' //NAMA OWNER
+let owner = '6285822347348' // NOMOR OWNER
 let symbol = '*🦅*'
-let faketeks = `*_｢ KuzaBase 0.1 ｣ 冬_*` 
+let faketeks = `*_｢ ArullBotz ｣ 冬_*` 
 
 readGc = true; 
 readPc = true;
@@ -129,10 +129,10 @@ const args = body.trim().split(/ +/).slice(1)
 const isCmd = body.startsWith(prefix)
 const q = args.join(' ')
 const Verived = "0@s.whatsapp.net"
-const ytabilbotz = "6282293295376@s.whatsapp.net"
+const ytabilbotz = "6285822347348@s.whatsapp.net"
 const txt = mek.message.conversation
 const botNumber = kuza.user.jid
-const ownerNumber = [`${owner}@s.whatsapp.net`, `6282293295376@s.whatsapp.net`, `6282293295376@s.whatsapp.net`]
+const ownerNumber = [`${owner}@s.whatsapp.net`, `6285822347348@s.whatsapp.net`, `6285822347348@s.whatsapp.net`]
 const isGroup = from.endsWith('@g.us')
 const sender = isGroup ? mek.participant : mek.key.remoteJid
 const totalchat = await kuza.chats.all()
@@ -151,9 +151,9 @@ const isListMsg = (type == 'listResponseMessage')
 const conts = mek.key.fromMe ? kuza.user.jid : kuza.contacts[sender] || { notify: jid.replace(/@.+/, '') }
 const isOwner = ownerNumber.includes(sender)
 const pushname = mek.key.fromMe ? kuza.user.name : conts.notify || conts.vname || conts.name || '-'
-const isAntiLink = isGroup ? antilink.includes(from) : false
-const isWelkom = isGroup ? _welkom.includes(from) : false
-const isAntiVirtex = isGroup ? antivirtex.includes(from) : false
+const isAntiLink = isGroup ? antilink.includes(from) : true
+const isWelkom = isGroup ? _welkom.includes(from) : true
+const isAntiVirtex = isGroup ? antivirtex.includes(from) : true
 
  //--Gblk
 	    
@@ -540,7 +540,7 @@ latensi = speed() - timestamp;
 run = process.uptime();
  listMsg = {
  buttonText: 'ListMenu ️',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 ArullOfc',
  description: `Hai kak @${sender.split('@')[0]}, Saya ${botname}, saya akan membatu mempermudah kehidupan..seperti membuat sticker dan lain-lain. untuk memulai silahkan ketik Click Button Dibawah yaa 🙏
  
  *_｢ Indonesia Time ｣_*
@@ -564,27 +564,27 @@ ${symbol} Runtime : *${kyun(run)}*`,
                       "title": `Youtube : ABIL BOTZ`,
  rows: [
                           {
-                              "title": "☰ Command / All Menu️",
+                              "title": "☰ COMAND / All Menu️",
                               "rowId": ".allmenu"
                            },
                            {
-                              "title": "☰ Owner / Pemilik Bot️",
+                              "title": "☰ OWNER / Pemilik Bot️",
                               "rowId": ".owner"
                            },
                            {
-                              "title": "☰ Donasi / Sedekah️",
+                              "title": "☰ DONASI / Sedekah️",
                               "rowId": ".donasi"
                            },
                            {
-                              "title": "☰ ScriptBot / Source Code",
+                              "title": "☰ SCRIPT / Source Code",
                               "rowId": ".script"
                            },
                            {
-                              "title": "☰ Speed / Kecepatan Bot️",
+                              "title": "☰ SPEED / Kecepatan Bot️",
                               "rowId": ".speed"
                            },
                            {
-                              "title": "☰ Runtime / Waktu Berjalan",
+                              "title": "☰ RUNTIME / Waktu Berjalan",
                               "rowId": ".runtime"
                            }
                         ]
@@ -600,7 +600,7 @@ latensi = speed() - timestamp;
 run = process.uptime();
  listMsg = {
  buttonText: 'Buttons',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 ArullOfc',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan Pilih Salah Satu Button List Dibawah Yaa 🙏
  
  *_｢ Indonesia Time ｣_*
@@ -796,7 +796,7 @@ Silahkan scan kode pembayaran di Atas
 3. SCAN
 4. MASUKIN NOMINAL
 5. TF`
-teks = `*NOTE* JANGAN LUPA KIRIM BUKTI TRANSFER KEPADA OWNER!`
+`
 but = [
           { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER'}, type: 1 },
           { buttonId: `${prefix}donasi`, buttonText: { displayText: 'DONASI'}, type: 1 }
