@@ -871,7 +871,7 @@ ${symbol} ${prefix}closegc
 ${symbol} ${prefix}tagall
 ${symbol} ${prefix}hidetag
 
-*_Created By AbilGanz_*`)
+*_Created By ArullOfc_*`)
 break
 
 case 'storemenu':
@@ -887,7 +887,7 @@ ${symbol} ${prefix}payment
 ${symbol} ${prefix}id
 ${symbol} ${prefix}sewabot
 
-*_Created By AbilGanz_*`)
+*_Created By ArullOfc_*`)
 break
 
 case 'stickermenu':
@@ -900,7 +900,7 @@ ${symbol} ${prefix}patrick
 ${symbol} ${prefix}gawgura
 ${symbol} ${prefix}stickeranime
 
-*_Created By AbilGanz_*`)
+*_Created By ArullOfc_*`)
 break
 
 case 'downloadmenu':
@@ -910,7 +910,7 @@ ${symbol} ${prefix}ytsearch
 ${symbol} ${prefix}tiktokmusic
 ${symbol} ${prefix}pinterest
 
-*_Created By AbilGanz_*`)
+*_Created By ArullOfc_*`)
 break
 
 case 'othermenu':
@@ -926,7 +926,7 @@ ${symbol} ${prefix}groupbot
 ${symbol} ${prefix}runtime
 ${symbol} ${prefix}speed
 
-*_Created By AbilGanz_*`)
+*_Created By ArullOfc_*`)
 break
 
 case 'ownermenu':
@@ -940,7 +940,7 @@ ${symbol} ${prefix}upswaudio
 ${symbol} ${prefix}upswvideo
 ${symbol} ${prefix}upswimage
 
-*_Created By AbilGanz_*`)
+*_Created By ArullOfc_*`)
 break
 
 case 'upswteks':
@@ -1020,7 +1020,7 @@ case 'bc':
              for (let _ of anu) {
              kuza.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": 'kuzaBot by AbilBotz',
+			"footerText": 'ArullBotz by ArullOfc',
 			"buttons": [
 			{"buttonId": `${prefix}owner`,
 			"buttonText": {"displayText": "OWNER"
@@ -1230,12 +1230,12 @@ break
 case 'sewabot':
  listMsg = {
  buttonText: 'Buttons',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈rullOfc',
  description: `Hai kak @${sender.split('@')[0]}, Mau Sewabot Ya?
  Nih Kak Listnya
  
  *Permanen*
- Rp 15.000
+ Rp 20.000
  *Perbulan*
  Rp 10.000
  *Perminggu*
@@ -1298,7 +1298,7 @@ case 'readmore':
   break
 
 case 'groupbot':
-reply(`https://chat.whatsapp.com/CS4ESARec5o476nHesGIDt`)
+reply(`https://chat.whatsapp.com/Hs5rHr27xu49VRLgdliMfR`)
 break
 
 case "runtime":
